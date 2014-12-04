@@ -3,10 +3,13 @@
 ;;;   see: http://globs.org/articles.php?lng=en&pg=2&id=2
 
 ;; Copyright (C) 2007 by Martin Pohlack
+;; Copyright (C) 2014 by York Zhao
 
 ;; Author: Martin Pohlack martinp (at) gmx.de
+;;         York Zhao gtdplatform (at) gmail.com
 ;; Version: 0.2
 ;; Time-stamp: <2007-11-09 martinp>
+;;             <2014-12-04 yorkz>
 
 ;; This file is NOT part of GNU Emacs.
 
