@@ -42,7 +42,7 @@
 
 (defvar tbemail-mode-hook nil)
 
-(add-to-list 'auto-mode-alist '("\.eml$" . tbemail-mode))
+(add-to-list 'auto-mode-alist '("\\.eml$" . tbemail-mode))
 
 (defface tbemail-email-quote1
   '((t (:foreground "#000080" :background "#d7d7d7")))
