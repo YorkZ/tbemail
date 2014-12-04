@@ -84,14 +84,10 @@
             '("\\(‘[^”]*’\\)"          1 'font-lock-string-face)
             ))
 
-(defun tbemail-mode ()
+(define-derived-mode tbemail-mode text-mode "TBE"
   "Major mode for highlighting Thunderbird-External-Edit emails"
-  (interactive)
-  (kill-all-local-variables)
   (make-local-variable 'font-lock-defaults)
   (setq font-lock-defaults '(tbemail-font-lock-keywords nil t nil nil))
-
-  (setq mode-name "TBE" major-mode 'tbemail)
   (run-hooks 'tbemail-mode-hook))
 
 (provide 'tbemail)
